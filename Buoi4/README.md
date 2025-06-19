@@ -28,8 +28,6 @@ Khi chạy hàm `main()`, thì nó sẽ biểu diễn chạy như sau:
 
 ### Bài tập 4: Viết chương trình thay đổi thứ tự màu RGB của ảnh trong thư mục exercise và sử dụng ngẫu nhiên một trong các phép biến đổi ảnh (Image inverse transformation, Gamma-Correction, Log Transformation, Histogram equalization, Contrast Stretching).
 
-## 🖼️ Cách chạy chương trình xử lý ảnh
-
 Khi chạy `process_images()`, quá trình sẽ diễn ra như sau:
 
 - Đầu tiên sẽ lượt qua tất cả ảnh có trong `exercise/`  
