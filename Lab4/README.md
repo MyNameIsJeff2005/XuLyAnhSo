@@ -1,4 +1,4 @@
-# GIẢI THÍCH CODE TRONG FILE [Buoi4.ipynb](./Buoi4.ipynb)
+# GIẢI THÍCH CODE TRONG FILE [Lab.ipynb](./Lab4.ipynb)
 
 ## Phần bài tập về nhà
 
