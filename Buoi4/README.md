@@ -16,10 +16,12 @@ Khi chạy hàm `main()`, thì nó sẽ biểu diễn chạy như sau:
 
  - Chuyển ảnh sang mảng `np.array()` để dễ xử lý giá trị pixel
 
- - `F`: Biến đổi Fourier nhanh (Fast Fourier Transform) là sẽ hiển thị phổ biên độ trong tần số của ảnh
+ - Sử dụng hàm `def fast_fourier_transform()` và `def butterworth_filter()` chứa các phương thức dùng để xử lý ảnh trong miền tần số theo từng phím tương ứng:
+ 
+   - `F`: Biến đổi Fourier nhanh (Fast Fourier Transform) là sẽ hiển thị phổ biên độ trong tần số của ảnh
 
- - `L`: Bộ lọc Butterworth thông thấp là ảnh làm mờ, bỏ qua chi tiết cao
+   - `L`: Bộ lọc Butterworth thông thấp là ảnh làm mờ, bỏ qua chi tiết cao
 
- - `H`: Bộ lọc Butterworth thông cao sẽ nhấn mạnh biên, làm sắc ảnh theo kiểu trắng đen 
+   - `H`: Bộ lọc Butterworth thông cao sẽ nhấn mạnh biên, làm sắc ảnh theo kiểu trắng đen 
 
  - Sau khi hoàn thành xử lý xong bởi lệnh `matplotlib`, những hình ảnh đã xử lý sẽ hiển thị dưới phần kết quả đã làm.
