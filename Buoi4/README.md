@@ -26,6 +26,7 @@ Khi chạy hàm `main()`, thì nó sẽ biểu diễn chạy như sau:
 
  - Sau khi hoàn thành xử lý xong bởi lệnh `matplotlib`, những hình ảnh đã xử lý sẽ hiển thị dưới phần kết quả đã làm.
 
+
 ### Bài tập 4: Viết chương trình thay đổi thứ tự màu RGB của ảnh trong thư mục exercise và sử dụng ngẫu nhiên một trong các phép biến đổi ảnh (Image inverse transformation, Gamma-Correction, Log Transformation, Histogram equalization, Contrast Stretching).
 
 Khi chạy `process_images()`, quá trình sẽ diễn ra như sau:
