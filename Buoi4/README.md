@@ -31,22 +31,22 @@ Khi chạy hàm `main()`, thì nó sẽ biểu diễn chạy như sau:
 
 Khi chạy `process_images()`, quá trình sẽ diễn ra như sau:
 
-- Đầu tiên sẽ lượt qua tất cả ảnh có trong `exercise/`  
+ - Đầu tiên sẽ lượt qua tất cả ảnh có trong `exercise/`  
 
-- Dùng vòng lặp `if` sẽ kiểm tra định dạng file ảnh (`jpg`, `jpeg`, `png`), nếu chúng không định dạng được dạng file ảnh sẽ không thực hiện phần kế tiếp coi như sẽ xóa vòng lặp và kết thúc ngay
+ - Dùng vòng lặp `if` sẽ kiểm tra định dạng file ảnh (`jpg`, `jpeg`, `png`), nếu chúng không định dạng được dạng file ảnh sẽ không thực hiện phần kế tiếp coi như sẽ xóa vòng lặp và kết thúc ngay
 
-- Trường hợp đã định dạng được sẽ qua đọc ảnh từ đường dẫn từ dòng lệnh `img = iio.imread(path)`
+ - Trường hợp đã định dạng được sẽ qua đọc ảnh từ đường dẫn từ dòng lệnh `img = iio.imread(path)`
 
-- Nếu ảnh là ảnh xám (grayscale), chuyển sang RGB bằng cách nhân bản kênh theo dòng lệnh `if img.ndim == 2:` và `img = np.stack([img]*3, axis=-1)`
+ - Nếu ảnh là ảnh xám (grayscale), chuyển sang RGB bằng cách nhân bản kênh theo dòng lệnh `if img.ndim == 2:` và `img = np.stack([img]*3, axis=-1)`
 
-- Xáo trộn ngẫu nhiên thứ tự `shuffle_rgb()` các kênh màu RGB thay vì chỉ hiện một thể loại theo yêu cầu của đề bài 
+ - Xáo trộn ngẫu nhiên thứ tự `shuffle_rgb()` các kênh màu RGB thay vì chỉ hiện một thể loại theo yêu cầu của đề bài 
 
-- Sau đó chọn, sử dụng lệnh `apply_random_transformation()` để áp dụng ngẫu nhiên một phương pháp biến đổi ảnh
+ - Sau đó chọn, sử dụng lệnh `apply_random_transformation()` để áp dụng ngẫu nhiên một phương pháp biến đổi ảnh
 
-- Hoàn thành xử lý hoán đổi sẽ hiển thị `matplotlib` và sẽ trình bày dưới kết quả thực hiện:
-    `plt.imshow(transformed)`  
-    `plt.title(f"{filename}")`  
-    `plt.axis('off')`  
-  =>`plt.show()`
+ - Hoàn thành xử lý hoán đổi sẽ hiển thị `matplotlib` và sẽ trình bày dưới kết quả thực hiện:
+     - `plt.imshow(transformed)`  
+     - `plt.title(f"{filename}")`  
+     - `plt.axis('off')`  
+     - `plt.show()`
 
 
