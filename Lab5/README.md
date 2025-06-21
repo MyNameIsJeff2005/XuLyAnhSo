@@ -14,11 +14,11 @@
 Ở bài này, khi chạy bởi các dòng lệnh ta sẽ thấy:
 - Đọc ảnh đu đủ và dưa hấu, tạo mask để xác định vùng quả (phân biệt với nền trắng). "ở đây là file `dudu.jpg` và `duahau.jpg`"
 - Đổi màu quả đu đủ thành gradient từ đỏ sang xanh lá bằng cách thay đổi giá trị màu theo chiều dọc bởi hai dòng lệnh:
-    `color = [255 * (1-t), 255 * t, 0]` và
-    `np.dstack([dudu[..., :3], mask_dudu.astype(np.uint8) * 255])`
+    - `color = [255 * (1-t), 255 * t, 0]` và
+    - `np.dstack([dudu[..., :3], mask_dudu.astype(np.uint8) * 255])`
 - Đổi màu dưa hấu thành gradient từ vàng sang tím cũng theo chiều dọc cũng như bởi dòng lệnh: 
-    `color = [255 * (1-t) + 128 * t, 255 * (1-t), 128 * t]` và
-    `np.dstack([duahau[..., :3], mask_duahau.astype(np.uint8) * 255])`
+    - `color = [255 * (1-t) + 128 * t, 255 * (1-t), 128 * t]` và
+    - `np.dstack([duahau[..., :3], mask_duahau.astype(np.uint8) * 255])`
 - Ghép hai quả lên một nền trong suốt (canvas alpha channel), mỗi quả một bên.
 - Lưu ảnh kết quả dưới dạng PNG để giữ được độ trong suốt.
 (đổi thành tên file là `fruit_composite.png` sau khi xử lý chạy chung một ảnh thay vì 2 ảnh tách rời theo yêu cầu bài)
