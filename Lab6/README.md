@@ -1,8 +1,8 @@
 # Nhập Môn Xử Lý Ảnh Số - Lab 4  
 ## Phân Vùng Ảnh & Biến Đổi Đối Tượng Nhị Phân
 
-**Sinh viên thực hiện:** Example  
-**MSSV:** Example  
+**Sinh viên thực hiện:** Nguyễn Hồng Thanh  
+**MSSV:** 2374802010455
 **Môn học:** Nhập môn Xử lý ảnh số  
 **Giảng viên:** Đỗ Hữu Quân
 
@@ -195,12 +195,3 @@ plt.show()
 
 3. **Tùy chỉnh tham số**  
    - Thay đổi số lần lặp, cấu trúc kernel, hoặc ngưỡng trong từng cell để quan sát tác động thực tế
-
----
-
-## Tài liệu tham khảo
-
-- Digital Image Processing - Rafael C. Gonzalez
-- Scikit-image: Image processing in Python
-- OpenCV Documentation
-- Slide bài giảng Nhập môn Xử lý ảnh số -
